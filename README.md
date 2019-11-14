@@ -8,24 +8,14 @@ The Romans wrote numbers using letters : I, V, X, L, C, D, M.
 
 To write a function to convert Roman Numerals to Normal Numbers: eg
 
-**Inputs | Outputs**
+**Inputs | Outputs
 -------- | ---------
-
 I | 1
-
-
 X | 10
-
-
 VII | 7
-
-
 IX | 9
-
-
 XIII | 13
-
-IM --> 999
+IM | 999
 
 
 
