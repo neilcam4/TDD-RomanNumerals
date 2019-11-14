@@ -1,45 +1,65 @@
 describe("ROMAN NUMERALS", function(){
-    let num;
+    let roman;
     let result;
 
     it("should return 1 with i", function(){
-        num = 'I'
-        result = romanNumConvert(num)
+        roman = 'I'
+        result = romanNumConvert(roman)
         expect(result).toEqual(1)
     })
     it("should return 5 with v", function(){
-        num = 'V'
-        result = romanNumConvert(num)
+        roman = 'V'
+        result = romanNumConvert(roman)
         expect(result).toEqual(5)
     })
     it("should return 10 with C", function(){
-        num = 'X'
-        result = romanNumConvert(num)
+        roman = 'X'
+        result = romanNumConvert(roman)
         expect(result).toEqual(10)
     })
     it("should return 50 with L", function(){
-        num = 'L'
-        result = romanNumConvert(num)
+        roman = 'L'
+        result = romanNumConvert(roman)
         expect(result).toEqual(50)
     })
     it("should return 100 with C", function(){
-        num = 'C'
-        result = romanNumConvert(num)
+        roman = 'C'
+        result = romanNumConvert(roman)
         expect(result).toEqual(100)
     })
     it("should return 500 with D", function(){
-        num = 'D'
-        result = romanNumConvert(num)
+        roman = 'D'
+        result = romanNumConvert(roman)
         expect(result).toEqual(500)
     })
     it("should return 1000 with M", function(){
-        num = 'M'
-        result = romanNumConvert(num)
+        roman = 'M'
+        result = romanNumConvert(roman)
         expect(result).toEqual(1000)
     })
     it("should return 2 with II", function(){
-        num = 'II'
-        result = romanNumConvert(num)
+        roman = 'II'
+        result = romanNumConvert(roman)
         expect(result).toEqual(2)
+    })
+    it("should return 3 with III", function(){
+        roman = 'III'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(3)
+    })
+    it("should return 11 with XI", function(){
+        roman = 'XI'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(11)
+    })
+    it("should return 52 with LII", function(){
+        roman = 'LII'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(52)
+    })
+    it("should return 4 with IV", function(){
+        roman = 'IV'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(4)
     })
 })
