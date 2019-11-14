@@ -9,7 +9,7 @@ The Romans wrote numbers using letters : I, V, X, L, C, D, M.
 To write a function to convert Roman Numerals to Normal Numbers: eg
 
 **Inputs | Outputs**
-______________________
+-------- | ---------
 
 I | 1
 
