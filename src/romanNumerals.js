@@ -6,6 +6,9 @@ function romanNumConvert(roman){
     let x = newArray.indexOf('X')
     let c = newArray.indexOf('C')
     let m = newArray.indexOf('M')
+   if(i !== -1 && v !== -1 && i < v || i !== -1 && x !== -1 && i < x ) {
+       return total(newArray) - 2
+   }
     return total(newArray) 
 }
 
