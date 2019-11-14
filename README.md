@@ -6,7 +6,7 @@ The Romans wrote numbers using letters : I, V, X, L, C, D, M. How do I know what
 
 `Aim:`
 
-To write a function to convert Roman Numerals to Normal Numbers: eg
+To pracice a concise RED/GREEN/REFACTOR TDD technique to write a function that converts Roman Numerals to Normal Numbers: 
 
 **Inputs | Outputs
 -------- | ---------
