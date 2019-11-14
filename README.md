@@ -20,6 +20,10 @@ IM | 999
 
 ![Screen Grab](/romanNum.png)
 
+`All tests found on spec/romanNumeralsSpec.js`
 
+`Code : src/romanNumerals.js`
+
+`Test Runner: SpecRunner.html`
 
 
