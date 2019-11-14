@@ -67,4 +67,29 @@ describe("ROMAN NUMERALS", function(){
         result = romanNumConvert(roman)
         expect(result).toEqual(9)
     })
+    it("should return 14 with XIV", function(){
+        roman = 'XIV'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(14)
+    })
+    it("should return 24 with XXIV", function(){
+        roman = 'XXIV'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(24)
+    })
+    it("should return 49 with IL", function(){
+        roman = 'IL'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(49)
+    })
+    it("should return 99 with IC", function(){
+        roman = 'IC'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(99)
+    })
+    it("should return 99 with IM", function(){
+        roman = 'IM'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(999)
+    })
 })
