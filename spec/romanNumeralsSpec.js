@@ -62,4 +62,9 @@ describe("ROMAN NUMERALS", function(){
         result = romanNumConvert(roman)
         expect(result).toEqual(4)
     })
+    it("should return 9 with IX", function(){
+        roman = 'IX'
+        result = romanNumConvert(roman)
+        expect(result).toEqual(9)
+    })
 })
