@@ -1,8 +1,8 @@
 ## TDD-Roman Numerals
 
-`#Problem Description`
+`Problem Description:`
 
-The Romans wrote numbers using letters : I, V, X, L, C, D, M. 
+The Romans wrote numbers using letters : I, V, X, L, C, D, M. How do I know what those numerals actually are in normal numbers?
 
 `Aim:`
 
@@ -14,6 +14,7 @@ I | 1
 X | 10
 VII | 7
 IX | 9
+XXII | 22
 XIII | 13
 IM | 999
 
