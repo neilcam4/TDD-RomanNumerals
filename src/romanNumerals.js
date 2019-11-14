@@ -23,7 +23,7 @@ function total(newArray){
         answer.push(numerals[num])
     })
     let finalAnswer = answer.reduce(function(sum,num){
-        return sum+=num
+        return sum += num
     })
     return finalAnswer 
 }
