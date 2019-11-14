@@ -27,4 +27,19 @@ describe("ROMAN NUMERALS", function(){
         result = romanNumConvert(num)
         expect(result).toEqual(100)
     })
+    it("should return 500 with D", function(){
+        num = 'D'
+        result = romanNumConvert(num)
+        expect(result).toEqual(500)
+    })
+    it("should return 1000 with M", function(){
+        num = 'M'
+        result = romanNumConvert(num)
+        expect(result).toEqual(1000)
+    })
+    it("should return 2 with II", function(){
+        num = 'II'
+        result = romanNumConvert(num)
+        expect(result).toEqual(2)
+    })
 })
